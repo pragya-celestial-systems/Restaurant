@@ -1,0 +1,19 @@
+#services {
+  background: url(../../assets/fruits.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 12rem;
+  transform: skew(0deg, -3deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#servicesHeading {
+  background: transparent;
+  color: var(--heading-color1);
+  font-size: 2rem;
+  text-shadow: 0 0 8px grey;
+  transform: skew(0deg, 3deg);
+  font-weight: 500;
+}

@@ -1,0 +1,18 @@
+#home {
+  background: url(../assets/meal.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  transform: skew(0deg, -3deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+#desc {
+  color: var(--heading-color1);
+  font-size: 2rem;
+  text-shadow: 0 0 2px lightgrey;
+  transform: skew(0deg, 3deg);
+  font-weight: 500;
+}

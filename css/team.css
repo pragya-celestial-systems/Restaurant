@@ -1,0 +1,82 @@
+#team {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#teamTopContainer {
+  height: 150px;
+  width: 150px;
+  background-color: var(--background);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-top: -2rem;
+  z-index: 1;
+}
+
+#teamHeading {
+  font-weight: 500;
+}
+
+#teamBottomContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.team-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+#teamImg1 {
+  background: url("https://t3.ftcdn.net/jpg/05/06/51/46/360_F_506514612_z8oBdrajxk5eE9WlDKjliXOp3k6XqTf7.jpg")
+    no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#teamImg2 {
+  background: url("https://st4.depositphotos.com/2208684/30213/i/450/depositphotos_302139812-stock-photo-portrait-shot-smiling-businessman-wearing.jpg")
+    no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#teamImg3 {
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI-ycnCXMU_IhRLsRqnkOnGExWNNDFFy07Kg&s")
+    no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#teamImg4 {
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR-P4LeIu6vw7d14ej7Njbo6fMwwVDDj_KvQ&s")
+    no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.team-name {
+  margin: 0;
+  font-weight: 400;
+}
+
+.team-profession {
+  color: var(--text-color);
+}

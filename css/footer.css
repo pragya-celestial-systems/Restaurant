@@ -1,0 +1,16 @@
+#footer {
+  background-color: var(--footer-bg);
+  color: var(--text-color1);
+  padding: 2rem;
+}
+
+#footerText {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+em,
+#devName {
+  color: orange;
+}

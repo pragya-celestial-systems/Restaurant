@@ -1,0 +1,18 @@
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  margin: auto;
+}
+
+#logo {
+  margin-left: 1rem;
+}
+
+#bars {
+  font-size: 2rem;
+  color: var(--text-color);
+  margin-right: 1rem;
+  cursor: pointer;
+}

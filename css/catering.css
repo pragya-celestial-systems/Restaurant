@@ -1,0 +1,81 @@
+#catering {
+  background: url(../../assets/fries.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  transform: skew(0deg, -3deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 4rem;
+}
+
+#cateringHeading {
+  color: var(--heading-color1);
+  background: transparent;
+  transform: skew(0deg, 3deg);
+  margin: 0;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+#cateringText {
+  color: var(--text-color1);
+  background: transparent;
+  transform: skew(0deg, 2deg);
+  text-shadow: 0 0px 5px grey;
+}
+
+#cateringContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: transparent;
+  width: 40%;
+  transform: skew(0deg, 3deg);
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.cateringBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: none;
+}
+
+.catering-item {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.cateringItemText {
+  color: var(--text-color1);
+  text-align: center;
+}
+
+#cateringImg1 {
+  background: url(../assets/salad2.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#cateringImg2 {
+  background: url(../assets/seaFood.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#cateringImg3 {
+  background: url(../assets/sweets.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#cateringImg4 {
+  background: url(../assets/pizza2.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
